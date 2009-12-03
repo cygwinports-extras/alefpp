@@ -1,0 +1,17 @@
+inherit ant vim
+
+DESCRIPTION="Alef++ language interpreter"
+HOMEPAGE="http://alefpp.sourceforge.net/"
+SRC_URI="mirror://sourceforge/alefpp/${P}-src.zip"
+SRC_DIR="${P}-src"
+
+src_install() {
+	cd ${B}
+	dojar target/alefpp.jar
+	java_wrapper alefpp alefpp.jar
+
+	viminto syntax
+	dovim vim/app.vim
+
+	dodoc ReadMe *.htm
+}

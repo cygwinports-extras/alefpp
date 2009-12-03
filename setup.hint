@@ -1,0 +1,7 @@
+category: Interpreters Java
+requires: jamvm
+sdesc: "Alef++ language interpreter"
+ldesc: "Alef++, is a new programming language like Perl and Lisp syntax, 
+with a many changing in classical languages designs, her specification 
+designed to be implemented for any VM, by default can access to any 
+private/protected/default Java fields or methods."

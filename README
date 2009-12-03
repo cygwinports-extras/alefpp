@@ -1,0 +1,44 @@
+alefpp
+------------------------------------------
+Alef++, is a new programming language like Perl and Lisp syntax, with a 
+many changing in classical languages designs, her specification designed 
+to be implemented for any VM, by default can access to any 
+private/protected/default Java fields or methods.
+
+Runtime requirements:
+  jamvm-1.5.3-1
+
+Build requirements:
+  ant-1.7.1-1
+  cygport-0.9.10-1
+  jamvm-1.5.3-1
+
+Canonical website:
+  http://alefpp.sourceforge.net/
+
+Canonical download:
+  http://sourceforge.net/projects/alefpp/files/
+
+-------------------------------------------
+
+Build instructions:
+  unpack alefpp-0.1.3-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./alefpp-0.1.3-X.cygport all
+
+This will create:
+  /usr/src/alefpp-0.1.3-X-src.tar.bz2
+  /usr/src/alefpp-0.1.3-X.tar.bz2
+
+-------------------------------------------
+
+Port Notes:
+
+----- version 0.1.3-1 -----
+Initial release for Cygwin 1.7.
+
+
+Cygwin port maintained by:
+http://sourceware.org/cygwinports/
